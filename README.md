@@ -1,107 +1,103 @@
-# Awesome OpenClaw 활용 사례 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> 사람들이 실제로 OpenClaw를 일상에서 어떻게 활용하고 있는지 알아보세요.
+<img width="1500" height="500" alt="Image" src="https://github.com/user-attachments/assets/4ae57dfb-4f18-4677-9136-43bf93017250" />
 
-OpenClaw 도입의 가장 큰 장벽은 스킬이나 도구가 부족한 것이 아닙니다. **내 삶에 어떻게 적용할지 모르는 것**입니다.
+<br/>
+<br/>
 
-이 저장소는 검증된 실제 활용 사례를 모아둔 커뮤니티 큐레이션 목록입니다.
+<strong>사람들이 일상에서 OpenClaw(이전 명칭: ClawdBot, MoltBot)를 실제로 어떻게 활용하는지 알아보세요.
+</strong>
+<br />
+<br />
 
-> ⚠️ **보안 주의사항**: 스킬과 서드파티 의존성에는 심각한 보안 취약점이 포함될 수 있습니다. 항상 스킬 소스 코드를 검토하고, 요청 권한을 확인하며, API 키를 하드코딩하지 마세요.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Use Cases](https://img.shields.io/badge/usecases-35-blue?style=flat-square)
+![Last Update](https://img.shields.io/github/last-commit/hesamsheikh/awesome-openclaw-usecases?label=Last%20Update&style=flat-square)
+[![Follow on X](https://img.shields.io/badge/Follow%20on-X-000000?style=flat-square&logo=x)](https://x.com/Hesamation)
+[![Discord](https://img.shields.io/badge/Discord-Open%20Source%20AI%20Builders-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/vtJykN3t)
 
----
+<p><sub><a href="https://x.com/Hesamation">X에서 인사해요.</a></sub></p>
+</div>
 
-## 목차
+# Awesome OpenClaw 활용 사례
 
-- [소셜 미디어](#소셜-미디어)
-- [창작 및 빌딩](#창작-및-빌딩)
-- [인프라 및 DevOps](#인프라-및-devops)
-- [생산성](#생산성)
-- [리서치 및 학습](#리서치-및-학습)
-- [금융 및 트레이딩](#금융-및-트레이딩)
+OpenClaw 도입의 병목은 ~~스킬~~이 아닙니다. **내 삶을 개선할 방법을 찾는 것**입니다. 이것은 [OpenClaw](https://github.com/openclaw/openclaw)의 실제 활용 사례를 모은 커뮤니티 컬렉션입니다.
 
----
+> **경고:** 여기서 참조하는 OpenClaw 스킬과 서드파티 의존성에는 심각한 보안 취약점이 있을 수 있습니다. 많은 사례가 **이 목록의 관리자가 감사하지 않은** 커뮤니티 빌드 스킬, 플러그인, 외부 저장소를 링크합니다. 항상 스킬 소스 코드를 검토하고, 요청 권한을 확인하며, API 키나 자격증명을 하드코딩하지 마세요. 보안에 대한 책임은 전적으로 본인에게 있습니다.
 
 ## 소셜 미디어
 
-| 사례 | 설명 |
+| 이름 | 설명 |
 |------|------|
-| [일일 Reddit 다이제스트](usecases/daily-reddit-digest.md) | 좋아하는 서브레딧의 인기 게시물을 매일 오후 5시에 요약 |
-| [일일 YouTube 다이제스트](usecases/daily-youtube-digest.md) | 구독 채널 및 키워드 기반으로 영상 자동 수집·요약 |
-| [X 계정 분석](usecases/x-account-analysis.md) | 내 X 게시물의 바이럴 패턴과 주제별 인게이지먼트 분석 |
-| [멀티소스 테크 뉴스 다이제스트](usecases/multi-source-tech-news-digest.md) | 100개 이상 소스(RSS, X, GitHub, 검색)에서 기술 뉴스 자동 수집·랭킹 |
+| [일일 Reddit 다이제스트](usecases/daily-reddit-digest.md) | 취향에 맞는 서브레딧 인기 게시물을 매일 요약해서 전달합니다. |
+| [일일 YouTube 다이제스트](usecases/daily-youtube-digest.md) | 구독 채널의 새 영상을 매일 요약해서 놓치지 않게 해줍니다. |
+| [X 계정 분석](usecases/x-account-analysis.md) | 내 X 계정에 대한 정성적 분석을 제공합니다. |
+| [멀티소스 테크 뉴스 다이제스트](usecases/multi-source-tech-news-digest.md) | RSS, Twitter/X, GitHub, 웹 검색 등 109개 이상 소스에서 품질 점수로 랭킹된 기술 뉴스를 자동 수집·전달합니다. |
 
 ## 창작 및 빌딩
 
-| 사례 | 설명 |
+| 이름 | 설명 |
 |------|------|
-| [자율 게임 개발 파이프라인](usecases/autonomous-game-dev-pipeline.md) | 7분마다 새 게임을 만들거나 버그를 수정하는 에이전트 |
-| [YouTube 콘텐츠 파이프라인](usecases/youtube-content-pipeline.md) | 매시간 AI 뉴스 스캔, 영상 아이디어 제안, 중복 방지 |
-| [콘텐츠 팩토리](usecases/content-factory.md) | Discord에서 리서치·스크립트·썸네일을 자동 생성하는 멀티에이전트 |
-| [자율 미니앱 빌더](usecases/overnight-mini-app-builder.md) | 목표를 입력하면 밤새 자동으로 앱을 빌드 |
-| [팟캐스트 제작 파이프라인](usecases/podcast-production-pipeline.md) | 녹음 전 조사·개요 작성, 녹음 후 쇼노트·소셜 콘텐츠 자동화 |
+| [자율 미니앱 빌더](usecases/overnight-mini-app-builder.md) | 목표를 입력하면 에이전트가 일일 태스크를 생성·실행하고, 밤새 미니앱까지 빌드합니다. |
+| [YouTube 콘텐츠 파이프라인](usecases/youtube-content-pipeline.md) | YouTube 채널을 위한 영상 아이디어 발굴, 리서치, 추적을 자동화합니다. |
+| [멀티에이전트 콘텐츠 팩토리](usecases/content-factory.md) | Discord에서 리서치·작성·썸네일 에이전트가 각자 채널에서 협업하는 콘텐츠 파이프라인을 운영합니다. |
+| [자율 게임 개발 파이프라인](usecases/autonomous-game-dev-pipeline.md) | 백로그 선택부터 구현, 등록, 문서화, git 커밋까지 교육용 게임 개발 전 과정을 자동 관리합니다. "버그 우선" 정책 적용. |
+| [팟캐스트 제작 파이프라인](usecases/podcast-production-pipeline.md) | 게스트 리서치, 에피소드 개요, 쇼노트, 소셜 미디어 홍보 등 팟캐스트 전 워크플로우를 자동화합니다. |
 
 ## 인프라 및 DevOps
 
-| 사례 | 설명 |
+| 이름 | 설명 |
 |------|------|
-| [n8n 워크플로우 오케스트레이션](usecases/n8n-workflow-orchestration.md) | OpenClaw가 n8n 웹훅을 생성하고 호출하는 프록시 패턴 |
-| [자가 치유 홈 서버](usecases/self-healing-home-server.md) | SSH 접근, 자동 헬스 모니터링, 인프라 자가 수정 에이전트 |
+| [n8n 워크플로우 오케스트레이션](usecases/n8n-workflow-orchestration.md) | 웹훅을 통해 n8n 워크플로우에 API 호출을 위임합니다. 에이전트는 자격증명을 다루지 않으며 모든 연동을 시각적으로 관리합니다. |
+| [자가 치유 홈 서버](usecases/self-healing-home-server.md) | SSH 접근, 자동 크론 작업, 자가 치유 기능을 갖춘 상시 인프라 에이전트를 홈 네트워크에서 운영합니다. |
 
 ## 생산성
 
-| 사례 | 설명 |
+| 이름 | 설명 |
 |------|------|
-| [자율 프로젝트 관리](usecases/autonomous-project-management.md) | 공유 STATE.yaml 기반 분산형 멀티에이전트 프로젝트 관리 |
-| [멀티채널 고객 서비스](usecases/multi-channel-customer-service.md) | WhatsApp, Instagram, 이메일, 리뷰를 통합 처리하는 AI 고객 서비스 |
-| [개인 CRM](usecases/personal-crm.md) | 이메일·캘린더 스캔으로 연락처와 상호작용을 자동 추적 |
-| [건강 증상 트래커](usecases/health-symptom-tracker.md) | 하루 3번 텔레그램 알림으로 음식·증상 기록 및 상관관계 분석 |
-| [동적 대시보드](usecases/dynamic-dashboard.md) | 병렬 서브에이전트로 GitHub, SNS, 시스템 지표를 실시간 집계 |
-| [회의록 및 액션 아이템](usecases/meeting-notes-action-items.md) | 회의 녹취록을 자동 분석하여 Jira/Linear에 태스크 생성 |
-| [멀티채널 어시스턴트](usecases/multi-channel-assistant.md) | Telegram, Slack, Google Workspace, Todoist를 하나로 통합 |
-| [맞춤형 모닝 브리프](usecases/custom-morning-brief.md) | 매일 아침 뉴스, 일정, 할일, 추천 작업을 정리해 전송 |
-| [멀티에이전트 팀](usecases/multi-agent-team.md) | 전략, 영업, 마케팅, 개발 역할을 가진 에이전트 팀 운영 |
-| [받은편지함 정리](usecases/inbox-declutter.md) | 매일 저녁 뉴스레터 이메일을 요약해서 다이제스트로 전송 |
-| [습관 트래커 및 코치](usecases/habit-tracker-accountability-coach.md) | 매일 체크인, 스트릭 추적, 주간 리포트 |
-| [Todoist 작업 관리자](usecases/todoist-task-manager.md) | 에이전트 진행 상황을 Todoist에 실시간 동기화 |
-| [가족 캘린더 및 가정 어시스턴트](usecases/family-calendar-household-assistant.md) | 가족 일정 통합, 메시지 모니터링, 식료품 재고 관리 |
-| [이벤트 참석 확인 자동화](usecases/event-guest-confirmation.md) | SuperCall 플러그인으로 게스트에게 자동 전화 걸어 참석 확인 |
-| [전화 기반 개인 어시스턴트](usecases/phone-based-personal-assistant.md) | 전화 통화로 캘린더 조회, Jira 업데이트, 웹 검색 |
-| [프로젝트 상태 관리](usecases/project-state-management.md) | 이벤트 기반 프로젝트 상태 시스템으로 맥락과 결정 이력 보존 |
-| [세컨드 브레인](usecases/second-brain.md) | 텍스트 메시지로 기억 저장, Next.js 대시보드로 검색 |
+| [자율 프로젝트 관리](usecases/autonomous-project-management.md) | STATE.yaml 패턴으로 멀티에이전트 프로젝트를 조율합니다. 서브에이전트가 오케스트레이터 없이 병렬로 작업합니다. |
+| [멀티채널 AI 고객 서비스](usecases/multi-channel-customer-service.md) | WhatsApp, Instagram, 이메일, Google 리뷰를 AI 기반 통합 받은편지함으로 24/7 자동 응답합니다. |
+| [전화 기반 개인 어시스턴트](usecases/phone-based-personal-assistant.md) | 전화 통화로 AI 에이전트에 접근하고, 핸즈프리 음성 어시스턴트를 어떤 전화기에서든 사용합니다. |
+| [받은편지함 정리](usecases/inbox-declutter.md) | 뉴스레터를 요약해서 다이제스트 이메일로 전송합니다. |
+| [개인 CRM](usecases/personal-crm.md) | 이메일과 캘린더에서 연락처를 자동 발굴·추적하고 자연어로 조회합니다. |
+| [건강 증상 트래커](usecases/health-symptom-tracker.md) | 정기 알림으로 음식 섭취와 증상을 기록하고 트리거를 파악합니다. |
+| [멀티채널 개인 어시스턴트](usecases/multi-channel-assistant.md) | 단일 AI 어시스턴트로 Telegram, Slack, 이메일, 캘린더를 통합 관리합니다. |
+| [프로젝트 상태 관리](usecases/project-state-management.md) | 정적 Kanban 보드를 대체하는 이벤트 기반 프로젝트 추적으로 맥락을 자동 캡처합니다. |
+| [동적 대시보드](usecases/dynamic-dashboard.md) | API, 데이터베이스, 소셜 미디어에서 병렬로 데이터를 수집하는 실시간 대시보드입니다. |
+| [Todoist 태스크 관리자](usecases/todoist-task-manager.md) | 에이전트의 추론 및 진행 로그를 Todoist에 동기화해서 투명성을 높입니다. |
+| [전화 기반 개인 어시스턴트](usecases/phone-based-personal-assistant.md) | 전화나 SMS로 어떤 전화기에서든 OpenClaw에 접근합니다. 캘린더 업데이트, Jira 티켓, 웹 검색 결과를 핸즈프리로 받아봅니다. |
+| [가족 캘린더 및 가정 어시스턴트](usecases/family-calendar-household-assistant.md) | 모든 가족 캘린더를 모닝 브리핑으로 통합하고, 메시지에서 약속을 감지하며, 가정 재고를 관리합니다. |
+| [멀티에이전트 전문 팀](usecases/multi-agent-team.md) | 전략, 개발, 마케팅, 사업 전문 에이전트를 단일 Telegram 채팅으로 조율된 팀으로 운영합니다. |
+| [맞춤형 모닝 브리프](usecases/custom-morning-brief.md) | 뉴스, 할일, 콘텐츠 초안, AI 추천 액션을 매일 아침 텍스트로 받아봅니다. |
+| [회의록 및 액션 아이템](usecases/meeting-notes-action-items.md) | 회의 녹취록을 구조화된 요약으로 변환하고 Jira, Linear, Todoist에 자동으로 태스크를 생성합니다. |
+| [습관 트래커 및 책임 코치](usecases/habit-tracker-accountability-coach.md) | Telegram 또는 SMS로 매일 능동적으로 체크인하며 습관을 추적하고 스트릭을 유지합니다. |
+| [세컨드 브레인](usecases/second-brain.md) | 봇에 문자를 보내 기억하고, 커스텀 Next.js 대시보드에서 모든 기억을 검색합니다. |
+| [이벤트 참석 확인](usecases/event-guest-confirmation.md) | AI 음성 통화로 이벤트 게스트에게 자동으로 전화를 걸어 참석 여부를 확인하고 요약을 생성합니다. |
+| [전화 알림](usecases/phone-call-notifications.md) | 에이전트의 알림을 실제 전화로 받습니다 — 모닝 브리핑, 가격 하락, 긴급 이메일 등을 양방향 대화로 확인합니다. |
 
 ## 리서치 및 학습
 
-| 사례 | 설명 |
+| 이름 | 설명 |
 |------|------|
-| [실적 발표 트래커](usecases/earnings-tracker.md) | 주간 실적 발표 일정 모니터링, 결과 자동 요약 |
-| [지식 베이스 RAG](usecases/knowledge-base-rag.md) | URL 드롭으로 콘텐츠 수집, 자연어로 시맨틱 검색 |
-| [시장 조사 및 제품 팩토리](usecases/market-research-product-factory.md) | Reddit·X에서 고객 페인포인트 발굴 후 MVP 빌드 |
-| [사전 빌드 아이디어 검증](usecases/pre-build-idea-validator.md) | 코딩 시작 전 GitHub, HN, npm 등에서 경쟁자 자동 조사 |
-| [시맨틱 메모리 검색](usecases/semantic-memory-search.md) | OpenClaw 마크다운 메모리를 벡터 DB로 변환해 시맨틱 검색 |
+| [AI 실적 발표 트래커](usecases/earnings-tracker.md) | 자동 미리 보기, 알림, 상세 요약으로 테크/AI 기업 실적 발표를 추적합니다. |
+| [개인 지식베이스 (RAG)](usecases/knowledge-base-rag.md) | URL, 트윗, 기사를 채팅에 드롭해서 검색 가능한 지식베이스를 구축합니다. |
+| [시장 조사 및 제품 팩토리](usecases/market-research-product-factory.md) | Last 30 Days 스킬로 Reddit과 X에서 실제 페인포인트를 발굴하고 MVP를 빌드합니다. |
+| [사전 빌드 아이디어 검증기](usecases/pre-build-idea-validator.md) | 새로운 것을 빌드하기 전에 GitHub, HN, npm, PyPI, Product Hunt를 자동 스캔합니다. 시장이 포화 상태면 중단, 열려 있으면 진행합니다. |
+| [시맨틱 메모리 검색](usecases/semantic-memory-search.md) | 하이브리드 검색과 자동 동기화로 OpenClaw 마크다운 메모리 파일에 벡터 기반 시맨틱 검색을 추가합니다. |
 
 ## 금융 및 트레이딩
 
-| 사례 | 설명 |
+| 이름 | 설명 |
 |------|------|
-| [Polymarket 자동 매매](usecases/polymarket-autopilot.md) | 3가지 전략으로 예측 시장 자동 페이퍼 트레이딩 |
+| [Polymarket 자동 매매](usecases/polymarket-autopilot.md) | 백테스팅, 전략 분석, 일일 성과 리포트가 포함된 예측 시장 자동 페이퍼 트레이딩입니다. |
 
----
+## 🤝 기여하기
 
-## 기여하기
+기여를 환영합니다! 가이드라인은 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고하세요.
 
-[CONTRIBUTING.md](CONTRIBUTING.md)를 읽어주세요.
+- 새 활용 사례 추가
+- 기존 사례 개선
 
-**규칙:**
-- 직접 테스트하고 검증한 사례만 제출
-- AI로 사례를 생성하지 마세요
-- 암호화폐 관련 사례는 받지 않습니다
-
----
-
-## 라이선스
-
-[MIT](LICENSE)
-
----
-
-*원본: [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)*
+> 직접 사용해보고 검증한 사례만 제출해주세요 (최소 하루 이상). 삶을 실제로 개선하는 진짜 아이디어를 소중히 여깁니다.
+>
+> **참고:** 암호화폐 관련 사례는 받지 않습니다.
