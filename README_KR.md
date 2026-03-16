@@ -11,7 +11,7 @@
 <br />
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Use Cases](https://img.shields.io/badge/usecases-35-blue?style=flat-square)
+![Use Cases](https://img.shields.io/badge/usecases-40-blue?style=flat-square)
 ![Last Update](https://img.shields.io/github/last-commit/hesamsheikh/awesome-openclaw-usecases?label=Last%20Update&style=flat-square)
 [![Follow on X](https://img.shields.io/badge/Follow%20on-X-000000?style=flat-square&logo=x)](https://x.com/Hesamation)
 [![Discord](https://img.shields.io/badge/Discord-Open%20Source%20AI%20Builders-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/vtJykN3t)
@@ -70,14 +70,16 @@ OpenClaw 도입의 병목은 ~~스킬~~이 아닙니다. **내 삶을 개선할 
 | [프로젝트 상태 관리](usecases/project-state-management.md) | 정적 Kanban 보드를 대체하는 이벤트 기반 프로젝트 추적으로 맥락을 자동 캡처합니다. |
 | [동적 대시보드](usecases/dynamic-dashboard.md) | API, 데이터베이스, 소셜 미디어에서 병렬로 데이터를 수집하는 실시간 대시보드입니다. |
 | [Todoist 태스크 관리자](usecases/todoist-task-manager.md) | 에이전트의 추론 및 진행 로그를 Todoist에 동기화해서 투명성을 높입니다. |
+| [전화 기반 개인 어시스턴트](usecases/phone-based-personal-assistant.md) | 음성 통화나 SMS로 어떤 전화에서든 OpenClaw에 접속합니다. 캘린더 업데이트, Jira 티켓, 웹 검색 결과를 핸즈프리로 확인합니다. |
 | [가족 캘린더 및 가정 어시스턴트](usecases/family-calendar-household-assistant.md) | 모든 가족 캘린더를 모닝 브리핑으로 통합하고, 메시지에서 약속을 감지하며, 가정 재고를 관리합니다. |
 | [멀티에이전트 전문 팀](usecases/multi-agent-team.md) | 전략, 개발, 마케팅, 사업 전문 에이전트를 단일 Telegram 채팅으로 조율된 팀으로 운영합니다. |
+| [데스크톱 Cowork로 OpenClaw 사용](usecases/aionui-cowork-desktop.md) | OpenClaw를 데스크톱 Cowork 앱으로 사용 — 통합 UI, 멀티에이전트, MCP 한 번 설정, WebUI/Telegram/Lark/钉钉(딩탁). OpenClaw가 다운되면 Telegram 또는 WebUI로 원격에서 내장 OpenClaw 배포 전문가(설치, 감지, 복구)를 사용해 해결할 수 있습니다. |
 | [맞춤형 모닝 브리프](usecases/custom-morning-brief.md) | 뉴스, 할일, 콘텐츠 초안, AI 추천 액션을 매일 아침 텍스트로 받아봅니다. |
-| [회의록 및 액션 아이템](usecases/meeting-notes-action-items.md) | 회의 녹취록을 구조화된 요약으로 변환하고 Jira, Linear, Todoist에 자동으로 태스크를 생성합니다. |
-| [습관 트래커 및 책임 코치](usecases/habit-tracker-accountability-coach.md) | Telegram 또는 SMS로 매일 능동적으로 체크인하며 습관을 추적하고 스트릭을 유지합니다. |
+| [회의록 및 액션 아이템 자동화](usecases/meeting-notes-action-items.md) | 회의 녹취록을 구조화된 요약으로 바꾸고 Jira, Linear, Todoist에 담당자에게 맞춰 자동으로 태스크를 생성합니다. |
+| [습관 트래커 및 책임 코치](usecases/habit-tracker-accountability-coach.md) | Telegram 또는 SMS로 매일 능동적으로 체크인하며 습관을 추적하고 스트릭을 유지하며 진행 상황에 맞춰 톤을 조절합니다. |
 | [세컨드 브레인](usecases/second-brain.md) | 봇에 문자를 보내 기억하고, 커스텀 Next.js 대시보드에서 모든 기억을 검색합니다. |
-| [이벤트 참석 확인](usecases/event-guest-confirmation.md) | AI 음성 통화로 이벤트 게스트에게 자동으로 전화를 걸어 참석 여부를 확인하고 요약을 생성합니다. |
-| [전화 알림](usecases/phone-call-notifications.md) | 에이전트의 알림을 실제 전화로 받습니다 — 모닝 브리핑, 가격 하락, 긴급 이메일 등을 양방향 대화로 확인합니다. |
+| [이벤트 참석 확인](usecases/event-guest-confirmation.md) | 이벤트 게스트에게 한 명씩 전화해 참석 여부를 확인하고 메모를 모아 요약합니다 — AI 음성 통화로 전 과정 자동화. |
+| [전화 알림](usecases/phone-call-notifications.md) | 에이전트 알림을 실제 전화로 받기 — 모닝 브리핑, 가격 하락, 긴급 이메일을 양방향 대화로 전달합니다. |
 
 ## 리서치 및 학습
 
